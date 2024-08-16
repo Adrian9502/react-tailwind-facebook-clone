@@ -22,7 +22,7 @@ export default function Sidebar() {
   return (
     <aside className="fixed w-[360px] h-[95vh] flex flex-col py-4 pt-5 px-2">
       <div className="flex-grow">
-        <ul className="flex mb-1 cursor-pointer hover:bg-zinc-800 transition rounded-lg items-center space-x-3 px-2 py-1">
+        <ul className="flex mb-1 cursor-pointer hover:bg-zinc-800  transition rounded-lg items-center space-x-3 px-2 py-1">
           <li className="flex items-center space-x-3">
             <img
               src="https://randomuser.me/api/portraits/men/43.jpg"

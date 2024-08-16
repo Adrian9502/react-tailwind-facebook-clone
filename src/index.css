@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Track */
+::-webkit-scrollbar {
+  width: 1px; /* Width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(63, 63, 70); /* Color of the scroll thumb */
+  border-radius: 6px; /* Roundness of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb when hovered */
+}
+
+/* Track (part of the scrollbar not covered by the thumb) */
+::-webkit-scrollbar-track {
+  background: rgb(63, 63, 70); /* Color of the track */
+}

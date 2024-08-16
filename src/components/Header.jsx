@@ -11,7 +11,7 @@ import { RiNotification2Fill } from "react-icons/ri";
 
 export default function Header() {
   return (
-    <header className="flex h-14 bg-zinc-800 border-b border-zinc-700 items-center px-4 justify-between">
+    <header className="sticky left-0 top-0 right-0 flex  py-1 bg-zinc-800 border-b border-zinc-700 items-center px-4 justify-between">
       <nav className="flex items-center space-x-2">
         <img className="w-10 h-10" src={facebookLogo} alt="Facebook logo" />
         <div className="relative">
@@ -44,7 +44,7 @@ export default function Header() {
           <CgGames size={24} color="gray" />
         </div>
       </nav>
-      <nav className="flex ml-32 bg-red-300 space-x-2 items-center">
+      <nav className="flex ml-32 space-x-2 items-center">
         <div className="rounded-full p-2 bg-zinc-700">
           <CgMenuGridR size={25} color="white" />
         </div>
