@@ -71,8 +71,16 @@ export default function Sidebar() {
       </div>
       <div className="text-white font-thin text-xs px-2 py-2">
         <div>
-          Privacy &middot; Terms &middot; Advertising &middot; Ad choices
-          &middot; Cookies &middot; More &middot;
+          <span className="hover:underline cursor-pointer">Privacy</span>{" "}
+          &middot; <span className="hover:underline cursor-pointer">Terms</span>{" "}
+          &middot;{" "}
+          <span className="hover:underline cursor-pointer">Advertising</span>{" "}
+          &middot;{" "}
+          <span className="hover:underline cursor-pointer">Ad choices</span>
+          &middot;{" "}
+          <span className="hover:underline cursor-pointer">Cookies</span>{" "}
+          &middot; <span className="hover:underline cursor-pointer">More</span>{" "}
+          &middot;
         </div>
         <span>Meta &copy; 2024</span>
       </div>

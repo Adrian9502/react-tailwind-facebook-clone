@@ -32,19 +32,19 @@ export default function Header() {
           <MdHomeFilled size={30} color="gray" />
         </div>
         <div className="px-12 cursor-pointer py-2 rounded-lg transition hover:bg-zinc-700">
-          <BsPeople size={30} color="gray" />
+          <BsPeople size={24} color="gray" />
         </div>
         <div className="px-12 cursor-pointer py-2 rounded-lg transition hover:bg-zinc-700">
-          <MdSmartDisplay size={30} color="gray" />
+          <MdSmartDisplay size={24} color="gray" />
         </div>
         <div className="px-12 cursor-pointer py-2 rounded-lg transition hover:bg-zinc-700">
-          <FaStore size={27} color="gray" />
+          <FaStore size={24} color="gray" />
         </div>
         <div className="px-12 cursor-pointer py-2 rounded-lg transition hover:bg-zinc-700">
-          <CgGames size={30} color="gray" />
+          <CgGames size={24} color="gray" />
         </div>
       </nav>
-      <nav className="flex space-x-2 items-center">
+      <nav className="flex ml-32 bg-red-300 space-x-2 items-center">
         <div className="rounded-full p-2 bg-zinc-700">
           <CgMenuGridR size={25} color="white" />
         </div>
