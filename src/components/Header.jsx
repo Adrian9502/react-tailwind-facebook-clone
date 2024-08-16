@@ -27,7 +27,7 @@ export default function Header() {
           />
         </div>
       </nav>
-      <nav className="flex items-center">
+      <nav className="flex gap-3 items-center">
         <div className="px-12  cursor-pointer py-2 rounded-lg transition hover:bg-zinc-700">
           <MdHomeFilled size={30} color="gray" />
         </div>
