@@ -98,6 +98,8 @@ export default function Stories() {
           gap: "6rem",
           pagination: false,
           arrows: true,
+          speed: 500,
+          easing: "ease-in-out",
         }}
       >
         {/* create story */}
