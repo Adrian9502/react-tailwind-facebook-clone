@@ -89,7 +89,7 @@ export default function Stories() {
     fetchPeople();
   }, []);
   return (
-    <section className="h-64 items-center">
+    <section className="h-64 items-center mb-5">
       <Splide
         options={{
           type: "slide",
