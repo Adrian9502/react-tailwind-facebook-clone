@@ -22,3 +22,7 @@
 ::-webkit-scrollbar-track {
   background: rgb(63, 63, 70); /* Color of the track */
 }
+/* Hide the left arrow */
+.splide__arrow--prev {
+  display: none;
+}

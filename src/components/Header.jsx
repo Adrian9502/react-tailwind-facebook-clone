@@ -29,7 +29,7 @@ IconButton.defaultProps = {
 
 export default function Header() {
   return (
-    <header className="sticky left-0 top-0 right-0 flex py-1 bg-zinc-800 border-b border-zinc-700 items-center px-4 justify-between">
+    <header className="sticky z-20 left-0 top-0 right-0 flex py-1 bg-zinc-800 border-b border-zinc-700 items-center px-4 justify-between">
       <nav className="flex items-center space-x-2">
         <img className="w-10 h-10" src={facebookLogo} alt="Facebook logo" />
         <div className="relative">

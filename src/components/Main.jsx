@@ -1,3 +1,12 @@
+// component for create story
+
+import Stories from "./main/Stories";
+
 export default function Main() {
-  return <div className="w-[36%] h-screen mx-auto bg-teal-400 ">Main</div>;
+  return (
+    <main className="w-[36%] h-screen mx-auto p-2 pt-5">
+      {/* story section */}
+      <Stories />
+    </main>
+  );
 }
