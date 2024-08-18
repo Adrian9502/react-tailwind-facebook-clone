@@ -53,7 +53,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <aside className="text-white overflow-auto px-2 py-4 fixed right-0 h-screen w-[360px]">
+    <aside className="bg-zinc-900 text-white overflow-auto px-2 py-4 fixed right-0 h-screen w-[360px]">
       <div className="flex justify-between">
         <span className="font-semibold">Contacts</span>
         <div className="flex gap-4 items-center">

@@ -54,19 +54,19 @@ export default function Header() {
       </nav>
       <nav className="flex ml-32 space-x-2 items-center">
         <div
-          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 cursor-pointer"
+          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 transition cursor-pointer"
           aria-label="Menu"
         >
           <CgMenuGridR size={25} color="white" />
         </div>
         <div
-          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 cursor-pointer"
+          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 transition cursor-pointer"
           aria-label="Messenger"
         >
           <FaFacebookMessenger size={25} color="white" />
         </div>
         <div
-          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 cursor-pointer"
+          className="rounded-full p-2 bg-zinc-700 hover:bg-zinc-600 transition cursor-pointer"
           aria-label="Notifications"
         >
           <RiNotification2Fill size={25} color="white" />

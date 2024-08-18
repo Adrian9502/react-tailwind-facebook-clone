@@ -20,7 +20,7 @@ export default function Sidebar() {
     "https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/aW4FjA5PhOT.png?_nc_eui2=AeGTrdGC2n4ASDI4GzH-Xppiaz4ElA9fvIxrPgSUD1-8jFy0n7cYUOTFFx6YHfd4S0g2d2x88iW4VXC5g5daULak";
 
   return (
-    <aside className="fixed w-[360px] h-[95vh] flex flex-col py-4 pt-5 px-2">
+    <aside className="fixed bg-zinc-900 w-[360px] h-[95vh] flex flex-col py-4 pt-5 px-2">
       <div className="flex-grow">
         <ul className="flex mb-1 cursor-pointer hover:bg-zinc-800  transition rounded-lg items-center space-x-3 px-2 py-1">
           <li className="flex items-center space-x-3">
