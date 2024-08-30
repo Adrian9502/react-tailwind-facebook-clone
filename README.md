@@ -15,6 +15,8 @@ A simple Facebook clone built with React, Tailwind CSS, React Icons, and React L
 
 - **React**
 - **Tailwind CSS**
+
+### Libraries
 - **React Icons**
 - **React Loader Spinner**
 
